@@ -49,3 +49,17 @@ for(var i=1;i<=50;i++){
         console.log(i)
     }
 }
+
+// example 4:
+
+// Write a JavaScript program to count and display all the numbers between 1 and 100 that are divisible by 7. 
+// , print how many such numbers were found.
+
+count=0;
+for(var i=1;i<=100;i++){
+    if(i%7==0){
+        count++;
+        console.log(i);
+    }
+}
+console.log(`They are ${count} multiples`)
