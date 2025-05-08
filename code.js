@@ -38,3 +38,14 @@ else if(marks<35){
 else{
     console.log("Marks should be greater than zero!")
 }
+
+
+// example 3:
+
+// print even numbers between 1-50 only
+
+for(var i=1;i<=50;i++){
+    if(i%2==0){
+        console.log(i)
+    }
+}
