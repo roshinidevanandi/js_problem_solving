@@ -91,3 +91,19 @@ for (var i = 0; i < arr.length; i++) {
 if (user_not_found) {
     console.log("user not exist");
 }
+
+
+// print prime numbers between 1-100
+
+for(let i=2;i<=100;i++){
+    fact=0
+    for(let j=2;j<i;j++){
+        if(i%j==0){
+            fact++;
+        }
+    }
+    if(fact==0){
+    console.log(i)
+    }
+}
+
