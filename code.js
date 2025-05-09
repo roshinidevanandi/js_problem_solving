@@ -67,8 +67,27 @@ console.log(`They are ${count} multiples`)
 
 // example 5:
 // display tables form 1 to 10
+
 for(var i=1;i<=10;i++){
     for(var j=1;j<=10;j++){
         console.log(`${i}x${j}=${i*j}`)
     }
+}
+
+
+// example 6:
+
+var arr = ["ros", "ruc", "pup", "pin", "sai", "sah"];
+var user_not_found = true;
+
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] === "ros") {
+        console.log(arr[i]);
+        user_not_found = false;
+        break;
+    }
+}
+
+if (user_not_found) {
+    console.log("user not exist");
 }
