@@ -16,3 +16,24 @@ for(var i=200;i<=300;i++){
     }
 }
 console.log(count);
+
+
+// Example 2:
+// Finds and prints the next prime number after the given number.
+
+num=prompt("enter the positive number:")
+while(true){
+    num++;
+    fact=0;
+    for(var i=2;i<num;i++){
+        if(num%i==0){
+           fact++;
+           break;
+        }
+    }
+    if(fact==0){
+        console.log(num);
+        break;
+    }
+}
+
