@@ -111,7 +111,7 @@ for(let i=2;i<=100;i++){
 // print the given number is prime or not
 
 n=9;
-fact=0
+fact=0;
 for(var i=2;i<n;i++){
     if(n%i==0){
        fact++; 
