@@ -37,3 +37,24 @@ while(true){
     }
 }
 
+
+// Example 3:
+// Prints the next 10 prime numbers after the given number.
+
+num=prompt("enter the positive number: ");
+count=0;
+while(count<10){
+    num++;
+    fact=0;
+    for(let i=2;i<num;i++){
+        if(num%i==0){
+            fact++;
+            break;
+        }
+    }
+    if(fact==0){
+        console.log(num);
+        count++;
+    }
+}
+
