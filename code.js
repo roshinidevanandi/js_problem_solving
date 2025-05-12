@@ -93,6 +93,7 @@ if (user_not_found) {
 
 // print prime numbers between 1-100
 
+
 for(let i=2;i<=100;i++){
     fact=0
     for(let j=2;j<i;j++){
@@ -106,7 +107,8 @@ for(let i=2;i<=100;i++){
 }
 
 
-// print the given number is prime or not
+// print the given number is prime or not explain
+
 
 n=9;
 fact=0;
