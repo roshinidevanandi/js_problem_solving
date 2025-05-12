@@ -50,7 +50,6 @@ for(var i=1;i<=50;i++){
 }
 
 // example 4:
-
 // Write a JavaScript program to count and display all the numbers between 1 and 100 that are divisible by 7. 
 // , print how many such numbers were found.
 
