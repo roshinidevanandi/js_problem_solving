@@ -41,7 +41,6 @@ else{
 
 
 // example 3:
-
 // print even numbers between 1-50 only
 
 for(var i=1;i<=50;i++){
