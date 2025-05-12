@@ -107,7 +107,7 @@ for(let i=2;i<=100;i++){
 }
 
 
-// print the given number is prime or not explain
+// print the given number is prime or not 
 
 
 n=9;
