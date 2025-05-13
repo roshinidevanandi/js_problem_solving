@@ -22,4 +22,17 @@ console.log(reverse)
 // find the even and odd numbers count of a given number
 
 
-num=9989017822
+num=9989017822;
+even=0;
+odd=0;
+while(num>0){
+    if((num%10)%2==0){
+        even++;
+    }
+    else{
+        odd++;
+    }
+    num=Math.floor(num/10);
+}
+console.log(`even count is ${even}`)
+console.log(`odd count is ${odd}`)
