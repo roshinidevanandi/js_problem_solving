@@ -8,7 +8,6 @@ while(num>0){
 }
 console.log(len)
 
-
 // Find the reverse of a number
 
 num=123
