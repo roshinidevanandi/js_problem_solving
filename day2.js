@@ -35,3 +35,35 @@ while(num>0){
 }
 console.log(`even count is ${even}`)
 console.log(`odd count is ${odd}`)
+
+
+// What is a factorial of a given number
+
+function factorial(n){
+    if(n==0 || n==1){
+        return 1;
+    }
+    else{
+        return n*factorial(n-1);
+    }
+}
+console.log(factorial(9))
+
+// or
+
+function factorial(n){
+    if(n==0 || n==1) return 1;
+    return n*factorial(n-1);
+}
+console.log(factorial(9))
+
+// method 2:
+
+function factorial(n){
+    result=1;
+    for(var i=2;i<=n;i++){
+        result*=i;
+    }
+    return result;
+}
+console.log(factorial(6))

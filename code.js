@@ -99,6 +99,7 @@ for(let i=2;i<=100;i++){
     for(let j=2;j<i;j++){
         if(i%j==0){
             fact++;
+            break;
         }
     }
     if(fact==0){
@@ -115,6 +116,7 @@ fact=0;
 for(var i=2;i<n;i++){
     if(n%i==0){
        fact++; 
+       break;
     }
 }
 if(fact==0){
