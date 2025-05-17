@@ -67,3 +67,30 @@ function factorial(n){
     return result;
 }
 console.log(factorial(6))
+
+
+
+// What is a fibonacci series of a given number
+
+// Using a Recursive Function (for nth number, not full series)
+
+
+function fibonacci(n){
+    if(n==0) return 0;
+    if(n==1) return 1;
+    return fibonacci(n-1)+fibonacci(n-2)
+}
+console.log(fibonacci(6))
+
+
+//  Using an Iterative Approach
+
+
+function fibonacci(n){
+    series=[0,1]
+    for(let i=2;i<=n;i++){
+        series.push(series[i-1]+series[i-2])
+    }
+    return series;
+}
+console.log(fibonacci(6))
