@@ -94,3 +94,7 @@ function fibonacci(n){
     return series;
 }
 console.log(fibonacci(6))
+
+
+// Find the even numbers and odd numbers seperately in the given number
+
