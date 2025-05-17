@@ -98,3 +98,17 @@ console.log(fibonacci(6))
 
 // Find the even numbers and odd numbers seperately in the given number
 
+num=6301864958;
+even_digit=0;
+odd_digit=0;
+while(num>0){
+    digit=num%10;
+    if(digit%2==0){
+        even_digit=even_digit*10+digit;
+    }
+    else{
+        odd_digit=odd_digit*10+digit;
+    }
+    num=Math.floor(num/10);
+}
+console.log(even_digit,odd_digit);
