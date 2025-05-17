@@ -112,3 +112,30 @@ while(num>0){
     num=Math.floor(num/10);
 }
 console.log(even_digit,odd_digit);
+
+
+// Find the sixth digit of the given number
+
+num=12334678;
+req=14;
+reverse=0;
+while(num>0){
+    digit=num%10;
+    reverse=reverse*10+digit;
+    num=Math.floor(num/10);
+}
+// console.log(reverse);
+count=0;
+not_found=true;
+while(reverse>0){
+    digit=reverse%10;
+    reverse=Math.floor(reverse/10);
+    count++;
+    if(count==req){
+        console.log(digit);
+        not_found=false;
+    }
+}
+if(not_found){
+    console.log(`not found the ${req}th digit`)
+}
