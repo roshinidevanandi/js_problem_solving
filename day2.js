@@ -95,6 +95,33 @@ function fibonacci(n){
 }
 console.log(fibonacci(6))
 
+// method 2 for fibonacci series
+
+var a=0;
+var b=1;
+for(var i=2;i<12;i++){
+    console.log(a);
+    c=a+b;
+    a=b;
+    b=c;
+}
+
+
+// find 50th number of fibonacci series
+
+var n=0;
+var o=1;
+count=0;
+for(var i=2;i<52;i++){
+    p=n+o;
+    n=o;
+    o=p;
+    count++;
+    if(count==50){
+        console.log(n);
+    }
+}
+
 
 // Find the even numbers and odd numbers seperately in the given number
 
