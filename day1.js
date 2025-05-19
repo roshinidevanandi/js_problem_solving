@@ -17,7 +17,6 @@ for(var i=200;i<=300;i++){
 }
 console.log(count);
 
-
 // Example 2:
 // Finds and prints the next prime number after the given number.
 
