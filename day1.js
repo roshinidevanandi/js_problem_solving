@@ -36,7 +36,6 @@ while(true){
     }
 }
 
-
 // Example 3:
 // Prints the next 10 prime numbers after the given number.
 
@@ -56,6 +55,5 @@ while(count<10){
         count++;
     }
 }
-
 
 
