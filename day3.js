@@ -22,3 +22,6 @@ if(sum==num3){
 else{
     console.log(`the given number ${num3} is not armstrong number`);
 }
+
+// Find greatest common divisor of the given numbers
+
