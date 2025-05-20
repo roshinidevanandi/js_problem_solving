@@ -1,5 +1,4 @@
 // Find the given number is armstrong or not
-
 num=153;
 num2=num;
 num3=num;
@@ -25,3 +24,20 @@ else{
 
 // Find greatest common divisor of the given numbers
 
+num1=15;
+num2=45;
+if(num1>num2){
+    max=num1;
+    min=num2;
+}
+else{
+    max=num2;
+    min=num1;
+}
+gcd=1;
+for(var i=1;i<=min;i++){
+    if(num1%i==0 && num2%i==0){
+        gcd=i;
+    }
+}
+console.log(gcd);
