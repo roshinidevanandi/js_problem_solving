@@ -121,7 +121,6 @@ for(var i=2;i<52;i++){
     }
 }
 
-
 // Find the even numbers and odd numbers seperately in the given number
 
 num=6301864958;
