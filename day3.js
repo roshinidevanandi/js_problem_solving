@@ -1,4 +1,5 @@
 // Find the given number is armstrong or not
+
 num=153;
 num2=num;
 num3=num;
