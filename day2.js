@@ -122,7 +122,6 @@ for(var i=2;i<52;i++){
 }
 
 // Find the even numbers and odd numbers seperately in the given number
-
 num=6301864958;
 even_digit=0;
 odd_digit=0;
@@ -137,7 +136,6 @@ while(num>0){
     num=Math.floor(num/10);
 }
 console.log(even_digit,odd_digit);
-
 
 // Find the sixth digit of the given number
 
