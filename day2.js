@@ -73,7 +73,6 @@ console.log(factorial(6))
 // What is a fibonacci series of a given number
 // Using a Recursive Function (for nth number, not full series)
 
-
 function fibonacci(n){
     if(n==0) return 0;
     if(n==1) return 1;
