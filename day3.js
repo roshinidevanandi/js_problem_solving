@@ -43,3 +43,4 @@ for(var i=1;i<=min;i++){
     }
 }
 console.log(gcd);
+
