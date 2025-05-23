@@ -26,6 +26,7 @@ else{
 
 // Find greatest common divisor of the given numbers
 
+
 num1=15;
 num2=45;
 if(num1>num2){
@@ -43,4 +44,6 @@ for(var i=1;i<=min;i++){
     }
 }
 console.log(gcd);
+
+
 
