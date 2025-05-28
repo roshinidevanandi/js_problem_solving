@@ -11,7 +11,6 @@ console.log(len)
 
 // Find the reverse of a number
 
-
 num=123
 reverse=0
 while(num>0){
