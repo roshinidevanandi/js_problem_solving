@@ -19,8 +19,8 @@ while(num>0){
 }
 console.log(reverse)
 
-// find the even and odd numbers count of a given number
 
+// find the even and odd numbers count of a given number
 
 num=9989017822;
 even=0;
