@@ -1,6 +1,5 @@
 // Find the length of number
 
-
 num=9989017822
 len=0
 while(num>0){
